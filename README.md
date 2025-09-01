@@ -34,7 +34,7 @@ const useStore = create(
 );
 
 // Rehydrate on app start
-useStore.getState().persist.rehydrate();
+useStore.persist.rehydrate();
 ```
 
 ## API
