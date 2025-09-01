@@ -1,6 +1,6 @@
 {
   "name": "zustand-per-key-persist",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Per-key persistence middleware for Zustand in React Native",
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "prepublishOnly": "npm run build"
+    "test": "echo \"No tests yet\"",
+    "prepublishOnly": "npm run build",
+    "version-bump": "npm version patch -m \"chore(release): %s\" && git push --follow-tags"
   },
   "keywords": [
     "zustand",
