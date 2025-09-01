@@ -125,7 +125,6 @@ const useStore = create(
 - **Null/undefined values**: Skipped (preserves cache during API failures)
 - **Corrupted data**: Automatically cleaned up during rehydration  
 - **Type safety**: Full TypeScript support with proper inference
-- **Error handling**: Silent failures to prevent console spam
 
 ## Requirements
 
