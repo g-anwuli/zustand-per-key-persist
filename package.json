@@ -1,6 +1,6 @@
 {
   "name": "zustand-per-key-persist",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Per-key persistence middleware for Zustand in React Native",
   "repository": {
     "type": "git",
