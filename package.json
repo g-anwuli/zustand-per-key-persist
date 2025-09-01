@@ -1,0 +1,36 @@
+{
+  "name": "zustand-per-key-persist",
+  "version": "1.0.0",
+  "description": "Per-key persistence middleware for Zustand in React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "zustand",
+    "react-native",
+    "asyncstorage",
+    "persistence",
+    "state-management"
+  ],
+  "author": "Godswill Anwuli",
+  "license": "MIT",
+  "peerDependencies": {
+    "zustand": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.0.0",
+    "zustand": "^4.0.0"
+  }
+}
