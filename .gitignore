@@ -44,5 +44,5 @@ temp/
 .eslintcache
 
 # Package lock files (optional - some prefer to include)
-package-lock.json
+# package-lock.json
 yarn.lock
